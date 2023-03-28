@@ -1,12 +1,23 @@
-git checkout -b feature/Banco-0       // para crear y ubicarnos en la branch feature/banco-01
+git checkout -b feature/Banco-0       
+// para crear y ubicarnos en la branch feature/banco-01
 
-git status                            //utilizado tood el tiempo para ver el estado de nuestras ramas y ver que podemos hacer
 
-git add.             //
+git status                            
+//utilizado tood el tiempo para ver el estado de nuestras ramas y ver que podemos hacer
 
-git commit -m ""   //
 
-git add remote link         //
+git add.                                      
+// para preparar los archivos modificados para su confirmacion y agregarlos al “Staging Area”
 
-git push   link //
+
+git commit -m "nombre de la version"         
+// para confirmar los cambios 
+
+
+git add remote <link del repositorio>        
+// para agregar un repositorio donde vamos a pushear el proyecto
+
+
+git push <link del repositorio>                              
+// para agregar todos los cambios y versiones de archivos al repositorio de GitHub
 
