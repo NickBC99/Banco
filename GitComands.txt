@@ -3,7 +3,7 @@ git checkout -b feature/Banco-0
 
 
 git status                            
-//utilizado tood el tiempo para ver el estado de nuestras ramas y ver que podemos hacer
+//utilizado todo el tiempo para ver el estado de nuestras ramas y ver que podemos hacer
 
 
 git add.                                      
