@@ -17,7 +17,6 @@ public class ClienteB extends Cliente implements InterfaceClienteService {
         return  getIngresoMensual() * 5 - deudaTotal;
     }
 
-
     @Override
     public Float calculoBalance() {
         Cuenta[] cuentas = getCuentas();

@@ -12,7 +12,7 @@ public abstract class Cliente {
     private Float ingresoMensual;
     private Prestamo[] prestamos;
 
-    public Cliente() {}
+    public Cliente(Long idCliente2, String nombre2, String apellido2, String telefono2, String email2, LocalDate fechaAltaCuenta) {}
 
     public Cliente(Long idCliente, String nombre, String apellido, 
     String telefono, String email, LocalDate fechaAlta, Cuenta[] cuentas, 
@@ -29,15 +29,15 @@ public abstract class Cliente {
     }
 
     public Cliente(Long idCliente, String nombre, String apellido, String telefono, 
-    String email, LocalDate fechaAlta) {
+    String email, LocalDate fechaAlta, Float ingresoMensual) {
         this.idCliente = idCliente;
         this.nombre = nombre;
         this.apellido = apellido;
         this.telefono = telefono;
         this.email = email;
         this.fechaAlta = fechaAlta;
+        this.ingresoMensual = ingresoMensual;
     }
-
 
     public Long getIdCliente() {
         return this.idCliente;
@@ -131,6 +131,10 @@ public abstract class Cliente {
             ", tipoCliente='" + getClass().getName() + "'" +
             ", ingresoMensual='" + getIngresoMensual() + "'" +
             "}";
+    }
+
+    public long getId() {
+        return 0;
     }
 
 
