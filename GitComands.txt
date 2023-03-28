@@ -1,0 +1,12 @@
+git checkout -b feature/Banco-0       // para crear y ubicarnos en la branch feature/banco-01
+
+git status                            //utilizado tood el tiempo para ver el estado de nuestras ramas y ver que podemos hacer
+
+git add.             //
+
+git commit -m ""   //
+
+git add remote link         //
+
+git push   link //
+
